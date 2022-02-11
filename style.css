@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+
+.container {
+    
+    
+    width: 70%;
+    margin: 0 auto;
+}
+
+.box-1 {
+    background-color: #3335;
+    
+    /*  
+        padding-top: 20px;
+        padding-right: 25px;
+        padding-bottom: 30px;
+        padding-left:35px;
+    */
+    padding: 30px 20px;
+    margin-top: 30px;
+    border: 3px solid red;
+}
+
+.box-1 h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 3px -9px 3px #000;
+    
+}
+
+.box-2 h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+    color:red;
+    text-shadow: -3px -9px 5px #000;
+}
+
+.box-2 {
+    background-color: #3335;
+    padding: 30px 20px;
+    margin-top: 15px;
+    border: 3px outset green;
+    padding-bottom: 40px;
+}
+
+.box-2 button {
+    
+}
+
+/*.button {
+    background-color:chartreuse;
+    border: 2px outset green;
+    border-radius: 5px;
+    font-style: normal
+    color: red;
+}*/
+
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px 5px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+.button2{
+    background-color: rgba(38, 166, 91);
+    text-align: center;
+    text-decoration-color: antiquewhite;
+    
+    margin-top: 20px;
+    color:white;
+    text-shadow: 3px 3px 5px #000;
+    line-height: 2.5;
+    border-radius: 10px;
+    padding: 0 20px;
+    
+}
+
+.button2:hover {
+    background-color: rgba(30, 130, 76);
+}
+
+.button:active{
+    box-shadow: inset 2px 2px 3px rgba(38,166,91);
+}
